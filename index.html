@@ -22,6 +22,7 @@
 		<link href="./assets/css/external.css" rel="stylesheet" />
 		<link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
 		<link href="./assets/css/style.css" rel="stylesheet" />
+		<link rel="stylesheet" href="./assets/css/fancybox.css" />
 		<title>
 			ConsultingSert | Профессиональный сертификационный консалтинг в
 			казахстане
@@ -31,7 +32,7 @@
 		class="body-scroll"
 		data-spy="scroll"
 		data-target="#navbar-spy"
-		data-offset="120"
+		data-offset="110"
 	>
 		<div id="wrapper" class="wrapper clearfix">
 			<header
@@ -53,16 +54,18 @@
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
-							<a class="logo" href="index-2.html">
-								<img
-									class="logo-dark"
-									src="./assets/images/logo/logo-dark.png"
-									alt="appy Logo"
-								/>
+							<a class="logo" data-scroll="scrollTo" href="#main">
 								<img
 									class="logo-light"
-									src="./assets/images/logo/logo-light.png"
-									alt="appy Logo"
+									src="./assets/images/logo/logo-light.svg"
+									alt="ConsultingSert"
+									height="42"
+								/>
+								<img
+									class="logo-dark"
+									src="./assets/images/logo/logo-dark.svg"
+									alt="ConsultingSert"
+									height="42"
 								/>
 							</a>
 						</div>
@@ -77,9 +80,9 @@
 									<a
 										class="nav-link active"
 										data-scroll="scrollTo"
-										href="#slider"
+										href="#main"
 									>
-										home
+										Главная
 									</a>
 								</li>
 								<li class="nav-item">
@@ -88,7 +91,7 @@
 										data-scroll="scrollTo"
 										href="#about"
 									>
-										about
+										О компании
 									</a>
 								</li>
 								<li class="nav-item">
@@ -97,25 +100,7 @@
 										data-scroll="scrollTo"
 										href="#feature2"
 									>
-										feature
-									</a>
-								</li>
-								<li class="nav-item">
-									<a
-										class="nav-link"
-										data-scroll="scrollTo"
-										href="#team"
-									>
-										team
-									</a>
-								</li>
-								<li class="nav-item">
-									<a
-										class="nav-link"
-										data-scroll="scrollTo"
-										href="#banner3"
-									>
-										why us
+										Преимущества
 									</a>
 								</li>
 								<li class="nav-item">
@@ -123,16 +108,16 @@
 										data-scroll="scrollTo"
 										href="#testimonial"
 									>
-										Feedback
+										Отзывы
 									</a>
 								</li>
 								<li class="nav-item">
 									<a
 										class="nav-link"
 										data-scroll="scrollTo"
-										href="#banner"
+										href="#order"
 									>
-										Free Consultation
+										Консультация
 									</a>
 								</li>
 							</ul>
@@ -140,7 +125,7 @@
 					</div>
 				</nav>
 			</header>
-			<section id="slider" class="section slider">
+			<section id="main" class="section slider">
 				<div class="slide--item bg-overlay bg-overlay-dark">
 					<div class="bg-section">
 						<img
@@ -155,25 +140,39 @@
 								data-wow-duration="1s"
 							>
 								<div class="slide--headline">
-									ПРОФЕССИОНАЛЬНЫЙ СЕРТИФИКАЦИОННЫЙ КОНСАЛТИНГ
-									В КАЗАХСТАНЕ
+									Профессиональный сертификационный консалтинг
+									в Казахстане
 								</div>
 							</div>
-							<div
+							<!-- <div
 								class="col-12 col-sm-8 col-sm-offset-2 text-center wow fadeInUp"
 								data-wow-duration="1s"
 							>
-								<div class="slide--bio">Короткое БИО</div>
-							</div>
+								<div class="slide--bio">
+									<ul class="text-left">
+										<li>
+											Оперативная помощь в сертификации
+										</li>
+										<li>Ваш бизнес без преград</li>
+										<li>Отсутствие штрафов</li>
+										<li>
+											Свободная реализация товаров и услуг
+											на территории ЕАС
+										</li>
+										<li>Таможенная очистка</li>
+									</ul>
+								</div>
+							</div> -->
 							<div
-								class="col-12 col-sm-8 col-sm-offset-2 text-center wow fadeInUp"
+								class="col-12 col-sm-8 col-sm-offset-2 text-center wow fadeInUp mt-70"
 								data-wow-duration="1s"
 							>
 								<div class="slide--action">
 									<a
 										class="btn btn--primary btn--bordered"
-										href="#"
-										>Free Consultation</a
+										data-scroll="scrollTo"
+										href="#order"
+										>Оставить заявку</a
 									>
 								</div>
 							</div>
@@ -181,114 +180,54 @@
 					</div>
 				</div>
 			</section>
-			<section id="counter1" class="counter">
+			<section id="about" class="section about">
 				<div class="container">
-					<div class="counter-container">
-						<div class="row">
-							<div class="col-xs-12 col-sm-6 col-md-3">
-								<div class="count-box">
-									<div class="count-icon">
-										<i class="icon icon-noun_740327_cc"></i>
-									</div>
-									<div class="count-content">
-										<div class="counting">821</div>
-										<div class="count-title">Cases won</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-xs-12 col-sm-6 col-md-3">
-								<div class="count-box">
-									<div class="count-icon">
-										<i class="icon icon-noun_740337_cc"></i>
-									</div>
-									<div class="count-content">
-										<div class="counting">189</div>
-										<div class="count-title">
-											Skilled lawyers
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-xs-12 col-sm-6 col-md-3">
-								<div class="count-box">
-									<div class="count-icon">
-										<i class="icon icon-noun_740291_cc"></i>
-									</div>
-									<div class="count-content">
-										<div class="counting">2630</div>
-										<div class="count-title">
-											Happy clients
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-xs-12 col-sm-6 col-md-3">
-								<div class="count-box">
-									<div class="count-icon">
-										<i class="icon icon-noun_740322_cc"></i>
-									</div>
-									<div class="count-content">
-										<div class="counting">540</div>
-										<div class="count-title">
-											Great Rewards
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section id="about" class="section about pb-0">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-12 col-sm-12 col-md-5 wow fadeInUp">
-							<img
-								class="img-responsive center-block"
-								src="./assets/images/team/team-4.png"
-								alt="ipad"
-							/>
+					<div>
+						<div
+							class="heading heading-1 mt-70 wow fadeInUp animated"
+							data-wow-duration="1s"
+						>
+							<h2 class="heading--title">О компании</h2>
+							<div class="heading--divider"></div>
 						</div>
 						<div
-							class="col-xs-12 col-sm-12 col-md-6 col-md-offset-1"
+							class="about-content wow fadeInUp animated"
+							data-wow-duration="1s"
 						>
-							<div
-								class="heading heading-1 mt-70 wow fadeInUp"
-								data-wow-duration="1s"
-							>
-								<h2 class="heading--title">About Our Firm</h2>
-								<div class="heading--divider"></div>
-							</div>
-							<div
-								class="about-content wow fadeInUp"
-								data-wow-duration="1s"
-							>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur
-									adipisicing elit, sede do eiusmod tempor
-									incididunt ut labore dolore magna aliqa Ut
-									enim ad minim veniam, quis nostrud
-									exercitation.
-								</p>
-								<p>
-									Euis aute irure dolor in reprehenderit in
-									voluptate velit esse cillum dolore eu fugiat
-									nulla pariatur. Excepteur sint occaecat
-									cupida.
-								</p>
-								<img
-									class="signture"
-									src="./assets/images/background/signture.png"
-									alt="signture"
-								/>
-							</div>
+							<p>
+								ConsultingSert - профессиональный
+								сертификационный консалтинг в Казахстане. Мы
+								поможем Вам получить необходимые документы для
+								реализации любой продукции, которая производится
+								в Казахстане и на импортную продукцию.
+								Проконсультируем по всем вопросам разрешительных
+								документов Евразийского экономического
+								Таможенного союза и ГОСТ РК с гарантией
+								легитимности.
+							</p>
+							<p>
+								Тесное сотрудничество с госучреждениями и
+								аккредитованными лабораториями позволяет нам
+								проводить сертификацию товаров быстро и по
+								приемлемой стоимости.
+							</p>
+							<p>
+								Для клиентов мы стараемся сделать максимально
+								удобный и комфортный сервис, оперативно
+								консультировать и проводить сертификацию.
+							</p>
+							<p>
+								Работаем напрямую с испытательными лабораториями
+								и аккредитованными органами Казахстана, России и
+								Киргизии.
+							</p>
 						</div>
 					</div>
 				</div>
 			</section>
 			<section
 				id="feature2"
-				class="section feature feature-2 feature-left bg-white mb-60"
+				class="section feature feature-2 feature-left bg-white"
 			>
 				<div class="container">
 					<div class="row clearfix">
@@ -299,12 +238,9 @@
 								class="heading heading-1 text--center wow fadeInUp"
 								data-wow-duration="1s"
 							>
-								<h2 class="heading--title">Practice Areas</h2>
-								<p class="heading--desc">
-									Lorem ipsum dolor amet, consectetur
-									adipisice elitesede eiusmod tempor incidide
-									labeore dolore magna.
-								</p>
+								<h2 class="heading--title">
+									Преимущества работы с ConsultingSert
+								</h2>
 								<div
 									class="heading--divider mb-80 heading--center"
 								></div>
@@ -318,14 +254,17 @@
 								data-wow-duration="1s"
 							>
 								<div class="feature--icon">
-									<i class="icon icon-noun_740324_cc"></i>
+									<img
+										class="icon w-100"
+										src="./assets/images/features/serts.svg"
+										alt=""
+									/>
 								</div>
 								<div class="feature--content">
-									<h3>Criminal Law</h3>
+									<h3>Опыт</h3>
 									<p>
-										Lorem ipsum dolor sit amet, conse
-										adipise elit, sed eiusmod tempor
-										incidide.
+										Более 30 000 выданных документов по
+										всему Казахстану.
 									</p>
 								</div>
 							</div>
@@ -336,14 +275,17 @@
 								data-wow-duration="1s"
 							>
 								<div class="feature--icon">
-									<i class="icon icon-noun_740303_cc"></i>
+									<img
+										class="icon w-100"
+										src="./assets/images/features/warranty.svg"
+										alt=""
+									/>
 								</div>
 								<div class="feature--content">
-									<h3>Real Estate Law</h3>
+									<h3>Ответсвенность</h3>
 									<p>
-										Lorem ipsum dolor sit amet, conse
-										adipise elit, sed eiusmod tempor
-										incidide.
+										Услуги предоставляются согласно договору
+										+ Гарантия.
 									</p>
 								</div>
 							</div>
@@ -354,14 +296,17 @@
 								data-wow-duration="1s"
 							>
 								<div class="feature--icon">
-									<i class="icon icon-noun_741284_cc"></i>
+									<img
+										class="icon w-100"
+										src="./assets/images/features/time.svg"
+										alt=""
+									/>
 								</div>
 								<div class="feature--content">
-									<h3>Family Law</h3>
+									<h3>Оперативность</h3>
 									<p>
-										Lorem ipsum dolor sit amet, conse
-										adipise elit, sed eiusmod tempor
-										incidide.
+										Обработка запросов и выдача документов в
+										краткие сроки.
 									</p>
 								</div>
 							</div>
@@ -372,14 +317,18 @@
 								data-wow-duration="1s"
 							>
 								<div class="feature--icon">
-									<i class="icon icon-noun_741298_cc"></i>
+									<img
+										class="icon w-100"
+										src="./assets/images/features/help.svg"
+										alt=""
+									/>
 								</div>
 								<div class="feature--content">
-									<h3>International Law</h3>
+									<h3>Инструкция</h3>
 									<p>
-										Lorem ipsum dolor sit amet, conse
-										adipise elit, sed eiusmod tempor
-										incidide.
+										Вы получаете не только документы, но и
+										подробную инструкцию по применению
+										сертификата и консультацию бесплатно
 									</p>
 								</div>
 							</div>
@@ -390,14 +339,17 @@
 								data-wow-duration="1s"
 							>
 								<div class="feature--icon">
-									<i class="icon icon-noun_741291_cc"></i>
+									<img
+										class="icon w-100"
+										src="./assets/images/features/online.svg"
+										alt=""
+									/>
 								</div>
 								<div class="feature--content">
-									<h3>Financial Law</h3>
+									<h3>Удобство</h3>
 									<p>
-										Lorem ipsum dolor sit amet, conse
-										adipise elit, sed eiusmod tempor
-										incidide.
+										Вы можете оформить документы удаленно по
+										WhatsApp и электронной почте.
 									</p>
 								</div>
 							</div>
@@ -408,14 +360,18 @@
 								data-wow-duration="1s"
 							>
 								<div class="feature--icon">
-									<i class="icon icon-noun_740314_cc"></i>
+									<img
+										class="icon w-100"
+										src="./assets/images/features/quality.svg"
+										alt=""
+									/>
 								</div>
 								<div class="feature--content">
-									<h3>Technology Law</h3>
+									<h3>Качество</h3>
 									<p>
-										Lorem ipsum dolor sit amet, conse
-										adipise elit, sed eiusmod tempor
-										incidide.
+										Мы работаем только с аккредитованными
+										органами, лабораториями и
+										исследовательскими центрами.
 									</p>
 								</div>
 							</div>
@@ -423,260 +379,259 @@
 					</div>
 				</div>
 			</section>
-			<section id="team" class="team team-1">
+			<section id="services" class="section">
 				<div class="container">
-					<div class="row clearfix">
+					<div class="row">
 						<div
 							class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3"
 						>
 							<div
-								class="heading heading-1 text--center wow fadeInUp"
+								class="heading heading-1 text--center wow fadeInUp animated"
 								data-wow-duration="1s"
 							>
-								<h2 class="heading--title">
-									Experted Attorneys
-								</h2>
-								<p class="heading--desc">
-									Lorem ipsum dolor amet, consectetur
-									adipisice elitesede eiusmod tempor incidide
-									labeore dolore magna.
-								</p>
+								<h2 class="heading--title">Услуги</h2>
 								<div
 									class="heading--divider mb-80 heading--center"
 								></div>
 							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="col-xs-12 col-sm-4 col-md-4">
-							<div class="member">
-								<div class="member-img">
-									<img
-										src="./assets/images/team/team-1.jpg"
-										alt="member"
-									/>
-									<div class="member-overlay">
-										<div class="member-social">
-											<div class="pos-vertical-center">
-												<a href="#">
-													<i
-														class="fa fa-facebook"
-													></i>
-												</a>
-												<a href="#">
-													<i
-														class="fa fa-twitter"
-													></i>
-												</a>
-												<a href="#">
-													<i
-														class="fa fa-google-plus"
-													></i>
-												</a>
-												<a href="#">
-													<i
-														class="fa fa-linkedin"
-													></i>
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="member-info">
-									<h5>Mark Smith</h5>
-									<h6>CEO &Manager</h6>
-								</div>
+						<div class="col-md-5 mb-60 col-md-offset-1">
+							<div
+								class="heading heading-1 text--left wow fadeInUp"
+								data-wow-duration="1s"
+							>
+								<a
+									data-fancybox="gallery"
+									href="./assets/images/certificates/1.jpeg"
+									data-caption="Сертификация продукции"
+									data-thumb="./assets/images/certificates/1.jpeg"
+								>
+									<h5>
+										Сертификация продукции
+										<img
+											src="./assets/images/certificates/zoom-in.svg"
+											alt=""
+											width="20"
+											height="20"
+										/>
+									</h5>
+								</a>
+								<ul class="pl-30">
+									<li>
+										Сертификат соответствия Таможенного
+										Союза
+									</li>
+									<li>
+										Декларация соответствия Таможенного
+										Союза
+									</li>
+									<li>Сертификация соответствия ГОСТ КЗ</li>
+									<li>Сертификация соответствия ГОСТ Р</li>
+									<li>
+										Свидетельство о государственной
+										регистрации (СГР)
+									</li>
+									<li>
+										Отказное письмо от Казахстанского органа
+									</li>
+									<li>Отказное письмо от РФ органа</li>
+								</ul>
 							</div>
 						</div>
-						<div class="col-xs-12 col-sm-4 col-md-4">
-							<div class="member">
-								<div class="member-img">
-									<img
-										src="./assets/images/team/team-2.jpg"
-										alt="member"
-									/>
-									<div class="member-overlay">
-										<div class="member-social">
-											<div class="pos-vertical-center">
-												<a href="#">
-													<i
-														class="fa fa-facebook"
-													></i>
-												</a>
-												<a href="#">
-													<i
-														class="fa fa-twitter"
-													></i>
-												</a>
-												<a href="#">
-													<i
-														class="fa fa-google-plus"
-													></i>
-												</a>
-												<a href="#">
-													<i
-														class="fa fa-linkedin"
-													></i>
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="member-info">
-									<h5>Ryan Printz</h5>
-									<h6>Family Lawyer</h6>
-								</div>
+						<div class="col-md-5 mb-60">
+							<div
+								class="heading heading-1 text--left wow fadeInUp"
+								data-wow-duration="1s"
+							>
+								<a
+									data-fancybox="gallery"
+									href="./assets/images/certificates/2.jpeg"
+									data-caption="Сертификация производство"
+									data-thumb="./assets/images/certificates/2.jpeg"
+								>
+									<h5>
+										Сертификация производство
+										<img
+											src="./assets/images/certificates/zoom-in.svg"
+											alt=""
+											width="20"
+											height="20"
+										/>
+									</h5>
+								</a>
+								<ul class="pl-30">
+									<li>
+										Сертификат о происхождения товара (СТ
+										КЗ)
+									</li>
+									<li>Сертификация оборудования</li>
+									<li>Разработка Стандарта Организации</li>
+									<li>Разработка паспорта безопасности</li>
+									<li>Технические условия</li>
+								</ul>
 							</div>
 						</div>
-						<div class="col-xs-12 col-sm-4 col-md-4">
-							<div class="member">
-								<div class="member-img">
-									<img
-										src="./assets/images/team/team-3.jpg"
-										alt="member"
-									/>
-									<div class="member-overlay">
-										<div class="member-social">
-											<div class="pos-vertical-center">
-												<a href="#">
-													<i
-														class="fa fa-facebook"
-													></i>
-												</a>
-												<a href="#">
-													<i
-														class="fa fa-twitter"
-													></i>
-												</a>
-												<a href="#">
-													<i
-														class="fa fa-google-plus"
-													></i>
-												</a>
-												<a href="#">
-													<i
-														class="fa fa-linkedin"
-													></i>
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="member-info">
-									<h5>Steve Martin</h5>
-									<h6>Financial Lawyer</h6>
-								</div>
+						<div class="clearfix"></div>
+						<div class="col-md-5 mb-60 col-md-offset-1">
+							<div
+								class="heading heading-1 text--left wow fadeInUp"
+								data-wow-duration="1s"
+							>
+								<a
+									data-fancybox="gallery"
+									href="./assets/images/certificates/3.jpeg"
+									data-caption="Сертификаты ИСО"
+									data-thumb="./assets/images/certificates/3.jpeg"
+								>
+									<h5>
+										Сертификаты ИСО
+										<img
+											src="./assets/images/certificates/zoom-in.svg"
+											alt=""
+											width="20"
+											height="20"
+										/>
+									</h5>
+								</a>
+								<ul class="pl-30">
+									<li>ИСО 9001</li>
+									<li>ИСО 14001</li>
+									<li>ИСО 18001</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-5 mb-60">
+							<div
+								class="heading heading-1 text--left wow fadeInUp"
+								data-wow-duration="1s"
+							>
+								<a
+									data-fancybox="gallery"
+									href="./assets/images/certificates/4.jpeg"
+									data-caption="Промышленная безопасность"
+									data-thumb="./assets/images/certificates/4.jpeg"
+								>
+									<h5>
+										Промышленная безопасность
+										<img
+											src="./assets/images/certificates/zoom-in.svg"
+											alt=""
+											width="20"
+											height="20"
+										/>
+									</h5>
+								</a>
+								<ul class="pl-30">
+									<li>
+										Разрешение на применение на территории
+										РК опасных технических устройств (РНП)
+									</li>
+									<li>
+										Декларирование промышленной безопасности
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						<div class="col-md-5 col-md-offset-1">
+							<div
+								class="heading heading-1 text--left wow fadeInUp"
+								data-wow-duration="1s"
+							>
+								<a
+									data-fancybox="gallery"
+									href="./assets/images/certificates/5.jpeg"
+									data-caption="Метрология"
+									data-thumb="./assets/images/certificates/5.jpeg"
+								>
+									<h5>
+										Метрология
+										<img
+											src="./assets/images/certificates/zoom-in.svg"
+											alt=""
+											width="20"
+											height="20"
+										/>
+									</h5>
+								</a>
+								<ul class="pl-30">
+									<li>Метрологическая аттестация СИ</li>
+									<li>Утверждение типа СИ</li>
+								</ul>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-			<section id="banner3" class="bg-white pt-0 pb-0">
-				<div class="container-fluid">
+			<section id="steps" class="section bg-white feature-left">
+				<div class="container">
 					<div class="row">
-						<div class="col-xs-12 col-sm-12 col-md-5 pr-0 pl-0">
-							<div class="col-img bg-overlay">
-								<div class="bg-section">
-									<img
-										src="./assets/images/background/bg-1.jpg"
-										alt="Background"
-									/>
+						<div
+							class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3"
+						>
+							<div
+								class="heading heading-1 text--center wow fadeInUp animated"
+								data-wow-duration="1s"
+							>
+								<h2 class="heading--title">
+									Схема нашей работы
+								</h2>
+								<div
+									class="heading--divider mb-80 heading--center"
+								></div>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						<div class="col-xs-12 col-sm-6 mb-20 col-md-3">
+							<div class="feature-panel">
+								<div class="feature--icon">
+									<div class="icon">1.</div>
+								</div>
+								<div class="feature--content">
+									<p>
+										Вы звоните нам или оставляете заявку на
+										сайте
+									</p>
 								</div>
 							</div>
 						</div>
-						<div
-							class="col-xs-12 col-sm-12 col-md-7 col-content pl-100"
-						>
-							<div class="row clearfix">
-								<div class="col-xs-12 col-sm-12 col-md-12">
-									<div
-										class="heading heading-1 wow fadeInUp"
-										data-wow-duration="1s"
-									>
-										<h2 class="heading--title">
-											Why Hire Us ?
-										</h2>
-										<p class="heading--desc">
-											Lorem ipsum dolor amet, consectetur
-											adipisice elite sede eiusmod tempor
-											incidide labeore dolore magna.
-										</p>
-										<div
-											class="heading--divider mb-80"
-										></div>
-									</div>
+						<div class="col-xs-12 col-sm-6 mb-20 col-md-3">
+							<div class="feature-panel">
+								<div class="feature--icon">
+									<div class="icon">2.</div>
+								</div>
+								<div class="feature--content">
+									<p>
+										Получаете от нас расчет стоимости и
+										сроков оформления
+									</p>
 								</div>
 							</div>
-							<div class="row mb-50">
-								<div class="col-xs-12 col-sm-6 col-md-6">
-									<div class="feature-panel">
-										<div class="feature--icon">
-											<i
-												class="icon icon-noun_740300_cc"
-											></i>
-										</div>
-										<div class="feature--content">
-											<h3>Exclusively Areas</h3>
-											<p>
-												Lorem ipsum dolor sit amet,
-												conse adipise elit, sed eiusmod
-												tempor incidide.
-											</p>
-										</div>
-									</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 mb-20 col-md-3">
+							<div class="feature-panel">
+								<div class="feature--icon">
+									<div class="icon">3.</div>
 								</div>
-								<div class="col-xs-12 col-sm-6 col-md-6">
-									<div class="feature-panel">
-										<div class="feature--icon">
-											<i
-												class="icon icon-noun_741355_cc"
-											></i>
-										</div>
-										<div class="feature--content">
-											<h3>Group of Lawyers</h3>
-											<p>
-												Lorem ipsum dolor sit amet,
-												conse adipise elit, sed eiusmod
-												tempor incidide.
-											</p>
-										</div>
-									</div>
+								<div class="feature--content">
+									<p>
+										Сбор необходимых документов и
+										согласование всех вопросов по оформлению
+									</p>
 								</div>
 							</div>
-							<div class="row">
-								<div class="col-xs-12 col-sm-6 col-md-6">
-									<div class="feature-panel">
-										<div class="feature--icon">
-											<i
-												class="icon icon-noun_740296_cc"
-											></i>
-										</div>
-										<div class="feature--content">
-											<h3>Cases Results</h3>
-											<p>
-												Lorem ipsum dolor sit amet,
-												conse adipise elit, sed eiusmod
-												tempor incidide.
-											</p>
-										</div>
-									</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 mb-20 col-md-3">
+							<div class="feature-panel">
+								<div class="feature--icon">
+									<div class="icon">4.</div>
 								</div>
-								<div class="col-xs-12 col-sm-6 col-md-6">
-									<div class="feature-panel">
-										<div class="feature--icon">
-											<i
-												class="icon icon-noun_741305_cc"
-											></i>
-										</div>
-										<div class="feature--content">
-											<h3>Experts in Law</h3>
-											<p>
-												Lorem ipsum dolor sit amet,
-												conse adipise elit, sed eiusmod
-												tempor incidide.
-											</p>
-										</div>
-									</div>
+								<div class="feature--content">
+									<p>
+										Отправляем Вам скан документа на
+										электронную почту и оригиналы на Ваш
+										адрес бесплатно
+									</p>
 								</div>
 							</div>
 						</div>
@@ -693,12 +648,9 @@
 								class="heading heading-1 text--center wow fadeInUp"
 								data-wow-duration="1s"
 							>
-								<h2 class="heading--title">Clients Feedback</h2>
-								<p class="heading--desc">
-									Lorem ipsum dolor amet, consectetur
-									adipisice elite sede eiusmod tempor incidide
-									labeore dolore magna.
-								</p>
+								<h2 class="heading--title">
+									Отзывы наших клиентов
+								</h2>
 								<div
 									class="heading--divider mb-80 heading--center"
 								></div>
@@ -709,7 +661,7 @@
 						<div class="col-xs-12 col-sm-12 col-md-12">
 							<div
 								class="carousel"
-								data-slide="3"
+								data-slide="1"
 								data-slide-res="2"
 								data-autoplay="true"
 								data-nav="false"
@@ -719,94 +671,299 @@
 								data-speed="800"
 							>
 								<div class="testimonial-panel">
-									<div class="testimonial--meta-img">
+									<!-- <div class="testimonial--meta-img">
 										<img
 											src="./assets/images/testimonial/1.png"
 											alt="Testimonial Author"
 										/>
+									</div> -->
+									<div class="heading heading-1">
+										<h5>ТОО «ASIA IMPEX (АЗИЯ ИМПЭКС)»</h5>
 									</div>
 									<div class="testimonial--body">
 										<p>
-											“Legal represented me on a very
-											serious matter where I was looking
-											at significant prison time.
-											Immediately, I knew that I was in
-											good hands.”
+											“Компания "ConsultingSert" является
+											нашим постоянным партнером в области
+											консалтинговых услуг. <br />
+											За время длительного сотрудничества
+											эта компания смогла неоднократно
+											подтвердить свою высокую
+											профессиональность и компетентность.
+											<br />
+											Работы были выполнены сотрудниками
+											"ConsultingSert" качественно и
+											оперативно. <br />
+											Мы удовлетворены деятельностью
+											"ConsultingSert" и рекомендуем эту
+											компанию как профессионального и
+											надежного партнера”
 										</p>
 									</div>
 									<div class="testimonial--meta">
 										<h4>
+											Директор <br />
+											ТОО «ASIA IMPEX (АЗИЯ ИМПЭКС)»
+											<br />
 											<span>-</span>
-											Steve Martin
+											Магеррамов Ф.Р
 										</h4>
 									</div>
 								</div>
 								<div class="testimonial-panel">
-									<div class="testimonial--meta-img">
+									<!-- <div class="testimonial--meta-img">
 										<img
 											src="./assets/images/testimonial/2.png"
 											alt="Testimonial Author"
 										/>
+									</div> -->
+									<div class="heading heading-1">
+										<h5>ТОО «Керри Проджект Логистик»</h5>
 									</div>
 									<div class="testimonial--body">
 										<p>
-											“Legal represented me on a very
-											serious matter where I was looking
-											at significant prison time.
-											Immediately, I knew that I was in
-											good hands.”
+											“Компания "ConsultingSert" является
+											нашим постоянным партнером в области
+											консалтинговых услуг. <br />
+											За время длительного сотрудничества
+											эта компания смогла неоднократно
+											подтвердить свою высокую
+											профессиональность и компетентность.
+											<br />
+											Работы были выполнены сотрудниками
+											"ConsultingSert" качественно и
+											оперативно. <br />
+											Мы удовлетворены деятельностью
+											"ConsultingSert" и рекомендуем эту
+											компанию как профессионального и
+											надежного партнера”
 										</p>
 									</div>
 									<div class="testimonial--meta">
 										<h4>
+											Менеджер по таможенному оформлению
+											<br />
+											ТОО «Керри Проджект Логистик»
+											<br />
 											<span>-</span>
-											Maya Jonson
+											Довжыч Ю.
 										</h4>
 									</div>
 								</div>
 								<div class="testimonial-panel">
-									<div class="testimonial--meta-img">
+									<!-- <div class="testimonial--meta-img">
 										<img
 											src="./assets/images/testimonial/3.png"
 											alt="Testimonial Author"
 										/>
+									</div> -->
+									<div class="heading heading-1">
+										<h5>ТОО «Пятый элемент SP»</h5>
 									</div>
 									<div class="testimonial--body">
 										<p>
-											“Legal represented me on a very
-											serious matter where I was looking
-											at significant prison time.
-											Immediately, I knew that I was in
-											good hands.”
+											“<strong>"ConsultingSert"</strong>
+											является нашим постоянным партнером
+											в области консалтинговых услуг.
+											<br />
+											За время длительного сотрудничества
+											эта компания смогла неоднократно
+											подтвердить свою высокую
+											профессиональность и компетентность.
+											<br />
+											Работы были выполнены сотрудниками
+											"ConsultingSert" качественно и
+											оперативно. <br />
+											Мы удовлетворены деятельностью
+											"ConsultingSert" и рекомендуем эту
+											компанию как профессионального и
+											надежного партнера”
 										</p>
 									</div>
 									<div class="testimonial--meta">
 										<h4>
+											С Уважением <br />
+											Директор<br />
+											ТОО «Пятый элемент SP»
 											<span>-</span>
-											Mark Smith
+											Вейс С.А.
 										</h4>
 									</div>
 								</div>
 								<div class="testimonial-panel">
-									<div class="testimonial--meta-img">
-										<img
-											src="./assets/images/testimonial/2.png"
-											alt="Testimonial Author"
-										/>
+									<div class="heading heading-1">
+										<h5>
+											ТОО «Уральская нефтехимическая
+											компания»
+										</h5>
 									</div>
 									<div class="testimonial--body">
 										<p>
-											“Legal represented me on a very
-											serious matter where I was looking
-											at significant prison time.
-											Immediately, I knew that I was in
-											good hands.”
+											“Товарищество с ограниченной
+											ответственностью "ConsultingSert"
+											является нашим постоянным партнером
+											в области консалтинговых услуг.
+											<br />
+											За время длительного сотрудничества
+											эта компания смогла неоднократно
+											подтвердить свою высокую
+											профессиональность и компетентность.
+											<br />
+											Работы были выполнены сотрудниками
+											ТОО "ConsultingSert" качественно и
+											оперативно. <br />
+											Мы удовлетворены деятельностью ТОО
+											"ConsultingSert" и рекомендуем эту
+											компанию как профессионального и
+											надежного партнера”
 										</p>
 									</div>
 									<div class="testimonial--meta">
 										<h4>
+											Генеральный директор <br />
+											ТОО «Уральская нефтехимическая
+											компания»
 											<span>-</span>
-											Mark Smith
+											Дрянин А.В.
+										</h4>
+									</div>
+								</div>
+								<div class="testimonial-panel">
+									<div class="heading heading-1">
+										<h5>ТОО «Neftek Operating»</h5>
+									</div>
+									<div class="testimonial--body">
+										<p>
+											“"ConsultingSert" является нашим
+											постоянным партнером в области
+											консалтинговых услуг.
+											<br />
+											За время длительного сотрудничества
+											эта компания смогла неоднократно
+											подтвердить свою высокую
+											профессиональность и компетентность.
+											<br />
+											Работы были выполнены сотрудниками
+											"ConsultingSert" качественно и
+											оперативно. <br />
+											Мы удовлетворены деятельностью
+											"ConsultingSert" и рекомендуем эту
+											компанию как профессионального и
+											надежного партнера”
+										</p>
+									</div>
+									<div class="testimonial--meta">
+										<h4>
+											Директор <br />
+											ТОО «Neftek Operating»
+											<span>-</span>
+											Д.Жаксыгулов
+										</h4>
+									</div>
+								</div>
+								<div class="testimonial-panel">
+									<div class="heading heading-1">
+										<h5>
+											ТОО «Глобалинк Транспортейшн энд
+											Лоджистикс Ворлдвайд»
+										</h5>
+									</div>
+									<div class="testimonial--body">
+										<p>
+											Настоящим письмом ТОО «Глобалинк
+											Транспортейшн энд Лоджистикс
+											Ворлдвайд» уведомляет, что компания
+											"ConsultingSert" является нашим
+											постоянным партнером в области
+											консалтинговых услуг. За время
+											длительного сотрудничества эта
+											компания смогла неоднократно
+											подтвердить свою высокую
+											профессиональность и компетентность.
+											Работы были выполнены сотрудниками
+											"ConsultingSert" качественно,
+											оперативно и своевременно.
+											<br /><br />
+											Мы удовлетворены деятельностью
+											"ConsultingSert" и рекомендуем эту
+											компанию как профессионального и
+											надежного партнера.
+										</p>
+									</div>
+									<div class="testimonial--meta">
+										<h4>
+											С уважением, <br />
+											координатор
+											<span>-</span>
+											Гулик Виктория
+										</h4>
+									</div>
+								</div>
+								<div class="testimonial-panel">
+									<div class="heading heading-1">
+										<h5>ТОО «Sembol Qurylys»</h5>
+									</div>
+									<div class="testimonial--body">
+										<p>
+											“"ConsultingSert" является нашим
+											постоянным партнером в области
+											консалтинговых услуг.
+											<br />
+											За время длительного сотрудничества
+											эта компания смогла неоднократно
+											подтвердить свою высокую
+											профессиональность и компетентность.
+											<br />
+											Работы были выполнены сотрудниками
+											"ConsultingSert" качественно и
+											оперативно. <br />
+											Мы удовлетворены деятельностью
+											"ConsultingSert" и рекомендуем эту
+											компанию как профессионального и
+											надежного партнера”
+										</p>
+									</div>
+									<div class="testimonial--meta">
+										<h4>
+											Генеральный директор <br />
+											<span>-</span>
+											Сарпер Сайдам
+										</h4>
+									</div>
+								</div>
+								<div class="testimonial-panel">
+									<div class="heading heading-1">
+										<h5>
+											ТОО «Глобалинк Транспортейшн энд
+											Лоджистикс Ворлдвайд»
+										</h5>
+									</div>
+									<div class="testimonial--body">
+										<p>
+											Настоящим письмом ТОО «Глобалинк
+											Транспортейшн энд Лоджистикс
+											Ворлдвайд» уведомляет, что компания
+											"ConsultingSert" является нашим
+											постоянным партнером в области
+											консалтинговых услуг. За время
+											длительного сотрудничества эта
+											компания смогла неоднократно
+											подтвердить свою высокую
+											профессиональность и компетентность.
+											Работы были выполнены сотрудниками
+											"ConsultingSert" качественно,
+											оперативно и своевременно.
+											<br /><br />Мы удовлетворены
+											деятельностью "ConsultingSert" и
+											рекомендуем эту компанию как
+											профессионального и надежного
+											партнера.
+										</p>
+									</div>
+									<div class="testimonial--meta">
+										<h4>
+											Генеральный директор <br />
+											<span>-</span>
+											Серхат Пютергели
 										</h4>
 									</div>
 								</div>
@@ -815,76 +972,7 @@
 					</div>
 				</div>
 			</section>
-			<section id="clients" class="clients clients-carousel bg-theme">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-12 col-sm-12 col-md-12">
-							<div
-								class="carousel carousel-dots"
-								data-slide="5"
-								data-slide-res="2"
-								data-autoplay="false"
-								data-nav="false"
-								data-dots="false"
-								data-space="30"
-								data-loop="true"
-								data-speed="800"
-							>
-								<div class="client">
-									<img
-										class="center-block"
-										src="./assets/images/clients/1.jpg"
-										alt="client"
-									/>
-								</div>
-								<div class="client">
-									<img
-										class="center-block"
-										src="./assets/images/clients/2.jpg"
-										alt="client"
-									/>
-								</div>
-								<div class="client">
-									<img
-										class="center-block"
-										src="./assets/images/clients/3.jpg"
-										alt="client"
-									/>
-								</div>
-								<div class="client">
-									<img
-										class="center-block"
-										src="./assets/images/clients/4.jpg"
-										alt="client"
-									/>
-								</div>
-								<div class="client">
-									<img
-										class="center-block"
-										src="./assets/images/clients/5.jpg"
-										alt="client"
-									/>
-								</div>
-								<div class="client">
-									<img
-										class="center-block"
-										src="./assets/images/clients/3.jpg"
-										alt="client"
-									/>
-								</div>
-								<div class="client">
-									<img
-										class="center-block"
-										src="./assets/images/clients/4.jpg"
-										alt="client"
-									/>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section id="banner" class="section cta pt-0 pb-0">
+			<section id="order" class="section cta pt-0 pb-0 bg-white">
 				<div class="container-fluid">
 					<div class="row">
 						<div
@@ -894,13 +982,9 @@
 								class="heading heading-1 wow fadeInUp"
 								data-wow-duration="1s"
 							>
-								<h2 class="heading--title">
-									Free Consultation
-								</h2>
+								<h2 class="heading--title">Оставить заявку</h2>
 								<p class="heading--desc">
-									Lorem ipsum dolor amet, consectetur
-									adipisice elite sede eiusmod tempor incidide
-									labeore dolore magna.
+									Оставить заявку и мы с Вами свяжемся
 								</p>
 								<div class="heading--divider mb-80"></div>
 							</div>
@@ -914,7 +998,7 @@
 												type="text"
 												class="form-control"
 												name="your-name"
-												placeholder="Your Name"
+												placeholder="Ваше Имя"
 											/>
 										</div>
 										<div
@@ -924,19 +1008,27 @@
 												type="email"
 												class="form-control"
 												name="your-email"
-												placeholder="Your Email"
+												placeholder="Ваш Email"
 											/>
 										</div>
 										<div
 											class="col-xs-12 col-sm-12 col-md-12"
 										>
 											<select class="form-control">
-												<option>Practice Area</option>
-												<option>Criminal Law</option>
 												<option>
-													International Law
+													Требуемые услуги
 												</option>
-												<option>Financial Law</option>
+												<option>
+													Сертификация продукции
+												</option>
+												<option>
+													Сертификация производство
+												</option>
+												<option>Сертификаты ИСО</option>
+												<option>Метрология</option>
+												<option>
+													Промышленная безопасность
+												</option>
 											</select>
 										</div>
 										<div
@@ -946,17 +1038,15 @@
 												class="form-control"
 												name="your-message"
 												rows="3"
-												placeholder="Your Message"
+												placeholder="Ваш Комментарий"
 											></textarea>
 										</div>
 										<div
 											class="col-xs-12 col-sm-12 col-md-6"
 										>
-											<input
-												type="submit"
-												class="btn btn--primary"
-												value="send request"
-											/>
+											<button class="btn btn--primary">
+												Оставить заявку
+											</button>
 										</div>
 									</form>
 								</div>
@@ -966,7 +1056,7 @@
 							<div class="col-img">
 								<div class="bg-section">
 									<img
-										src="./assets/images/background/bg-2.jpg"
+										src="./assets/images/background/bg-2.png"
 										alt="Background"
 									/>
 								</div>
@@ -985,8 +1075,9 @@
 								<div class="footer--widget-content">
 									<img
 										class="mb-20"
-										src="./assets/images/logo/logo-light.png"
-										alt="logo"
+										src="./assets/images/logo/logo-light.svg"
+										alt="ConsultingSert"
+										height="42"
 									/>
 									<p>
 										Оперативная помощь в сертификации <br />
@@ -997,7 +1088,7 @@
 										Таможенная очистка
 									</p>
 									<div class="clearfix"></div>
-									<div class="social">
+									<!-- <div class="social">
 										<a class="share-twitter" href="#">
 											<i class="fa fa-twitter"></i>
 										</a>
@@ -1010,99 +1101,14 @@
 										<a class="share-pinterest" href="#">
 											<i class="fa fa-pinterest-p"></i>
 										</a>
-									</div>
-								</div>
-							</div>
-							<div
-								class="col-xs-12 col-sm-6 col-md-4 footer--widget-recent"
-							>
-								<div class="footer--widget-title">
-									<h5>Blog Posts</h5>
-								</div>
-								<div class="footer--widget-content">
-									<div class="entry">
-										<div class="entry--img">
-											<img
-												src="./assets/images/blog/thumb/1.jpg"
-												alt="entry"
-											/>
-										</div>
-										<div class="entry--content">
-											<div class="entry--title">
-												<a href="#"
-													>Four ways to cheer yourself
-													up on the Blue Monday!</a
-												>
-											</div>
-											<div class="entry--meta">
-												<span>Jan 20, 2017</span>
-												<span>
-													<i
-														class="fa fa-comment-o"
-													></i>
-													6 comments
-												</span>
-											</div>
-										</div>
-									</div>
-									<div class="entry">
-										<div class="entry--img">
-											<img
-												src="./assets/images/blog/thumb/2.jpg"
-												alt="entry"
-											/>
-										</div>
-										<div class="entry--content">
-											<div class="entry--title">
-												<a href="#"
-													>Old cameras can capture
-													images better than nowdays
-													camera!</a
-												>
-											</div>
-											<div class="entry--meta">
-												<span>Jan 20, 2017</span>
-												<span>
-													<i
-														class="fa fa-comment-o"
-													></i>
-													3 comments
-												</span>
-											</div>
-										</div>
-									</div>
-									<div class="entry">
-										<div class="entry--img">
-											<img
-												src="./assets/images/blog/thumb/3.jpg"
-												alt="entry"
-											/>
-										</div>
-										<div class="entry--content">
-											<div class="entry--title">
-												<a href="#"
-													>Four ways to cheer yourself
-													up on the Blue Monday!</a
-												>
-											</div>
-											<div class="entry--meta">
-												<span>Jan 20, 2017</span>
-												<span>
-													<i
-														class="fa fa-comment-o"
-													></i>
-													5 comments
-												</span>
-											</div>
-										</div>
-									</div>
+									</div> -->
 								</div>
 							</div>
 							<div
 								class="col-xs-12 col-sm-6 col-md-4 footer--widget-contact"
 							>
 								<div class="footer--widget-title">
-									<h5>Get In Touch</h5>
+									<h5>Контакты</h5>
 								</div>
 								<div class="footer--widget-content">
 									<ul class="list-unstyled mb-0">
@@ -1113,7 +1119,9 @@
 										</li>
 										<li>
 											<i class="fa fa-phone"></i>
-											(04) 491 570 110
+											<a href="tel:+104491570110"
+												>+1 (04) 491 570 110</a
+											>
 										</li>
 										<li>
 											<i class="fa fa-envelope-o"></i>
@@ -1134,7 +1142,7 @@
 							<div
 								class="col-xs-12 col-sm-12 col-md-12 text--center"
 							>
-								<span>&copy;2022, All rights reserved.</span>
+								<span>&copy;2022, Все права защищены.</span>
 							</div>
 						</div>
 					</div>
@@ -1143,6 +1151,7 @@
 		</div>
 		<script src="./assets/js/jquery-2.2.4.min.js"></script>
 		<script src="./assets/js/plugins.js"></script>
+		<script src="./assets/js/fancybox.js"></script>
 		<script src="./assets/js/functions.js"></script>
 	</body>
 </html>
