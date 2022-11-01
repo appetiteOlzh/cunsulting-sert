@@ -57,8 +57,4 @@
 		live: true,
 	});
 	wow.init();
-	// $(".counting").counterUp({
-	// 	delay: 10,
-	// 	time: 1000,
-	// });
 })(jQuery);
