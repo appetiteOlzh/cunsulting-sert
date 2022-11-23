@@ -4,8 +4,8 @@
 
 .wa {
     display: block;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     position: fixed;
     bottom: 50px;
     right: 50px;
@@ -66,5 +66,12 @@
 	100% {
 		-webkit-transform: scale3d(0.9, 0.9, 0.9);
 		transform: scale3d(0.9, 0.9, 0.9);
+	}
+}
+
+@media (max-width: 767px) {
+	.wa {
+		bottom: 30px;
+		right: 20px;
 	}
 }
